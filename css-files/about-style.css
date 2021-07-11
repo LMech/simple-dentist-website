@@ -1,0 +1,51 @@
+.mission-vision,
+.experience-branches,
+.technology {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    margin         : 100px;
+}
+
+.mission-vision > *,
+.experience-branches > * {
+    flex      : 1 1 0px;
+    text-align: center;
+    margin    : 0 3% 20px;
+    min-width: 400px;
+}
+
+.mission-vision h3,
+.experience-branches h3,
+.technology h3 {
+    font-family: Almarai-Regular;
+    font-size  : 150%;
+    line-height: 150%;
+}
+
+.mission-vision img {
+    width: 100%;
+}
+
+.technology .text {
+    width     : 60%;
+    text-align: justify;
+}
+
+.technology img {
+    width        : 30%;
+    padding-right: 50px;
+}
+
+.experience-branches hr {
+    width: 50%;
+}
+
+@media(max-width: 1100px) {
+    .technology img {
+        display: none;
+    }
+    .technology .text {
+        width: 100%;
+    }
+}

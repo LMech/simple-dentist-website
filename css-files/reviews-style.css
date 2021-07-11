@@ -1,0 +1,25 @@
+.reviews .review,
+.questions .question {
+    display: block;
+    padding: 50px;
+}
+.review h3,
+.question h3 {
+    border-bottom: 1px solid;
+}
+
+i {
+    position: relative;
+}
+
+.reviews .review i {
+    right: 70%;
+}
+
+.questions .question i {
+    right: 30%;
+}
+
+.question ul {
+    font-family: Almarai-Regular;
+}

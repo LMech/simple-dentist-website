@@ -1,0 +1,118 @@
+/* light box */
+.row .column {
+    padding: 8px;
+}
+
+.row {
+    display        : flex;
+    justify-content: middle;
+    flex-direction : coulmn;
+}
+
+.column {
+    width: 33%;
+}
+
+.column img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.modal {
+    display         : none;
+    position        : fixed;
+    z-index         : 101;
+    padding-top     : 50px;
+    overflow        : scroll;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Modal Content */
+.modal-content {
+    position        : relative;
+    background-color: #fefefe;
+    margin          : auto;
+    padding         : 0;
+    max-width       : 1200px;
+}
+
+/* The Close Button */
+.close {
+    color      : white;
+    position   : absolute;
+    top        : 10px;
+    right      : 25px;
+    font-size  : 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color          : #999;
+    text-decoration: none;
+    cursor         : pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 3px 0 0 3px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hover-shadow:hover {
+    transition        : 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition   : 0.3s;
+    -ms-transition    : 0.3s;
+    -o-transition     : 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.644), 0 6px 20px 0 rgba(255, 129, 10, 0.19);
+}
